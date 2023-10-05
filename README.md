@@ -1,5 +1,4 @@
 # Lenskart
-Lenskart was founded in 2010 by Peyush Bansal and Amit Chaudhary with the goal of providing a convenient and reliable platform for customers to purchase eyewear products. The company operates both online and offline, with a strong online presence through its website.
 
 ### Deployed Link :- [Click Here](https://ugamraj.github.io/team-lenskart/Home)
 
