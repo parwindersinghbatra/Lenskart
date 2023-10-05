@@ -53,3 +53,11 @@ During the development of this project, we faced a few challenges, including:
 
 To overcome these challenges, we have explore through different platforms and with help of mentor and team work.
 
+## Features
+
+Key features of this project include:
+
+- Responsive design for same user experience on all devices.
+- Interactive product sliders that allow users to explore   different sunglasses.
+- Our project is designed to be straightforward, so you can easily find your way around the sunglasses catalog. 
+- Subtle animations are applied to enhance user interactions.
