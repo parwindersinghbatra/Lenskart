@@ -19,6 +19,7 @@ This project was built using the following technologies and libraries:
 - HTML
 - CSS
 - JavaScript
+- Tailwind
 
 ## HTML Tags
 
