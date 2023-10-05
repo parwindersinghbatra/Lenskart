@@ -5,6 +5,14 @@ Lenskart was founded in 2010 by Peyush Bansal and Amit Chaudhary with the goal o
 
 ### Repositories :- [Click Here](https://parwindersinghbatra.github.io/Lenskart)
 
+## Technologies Used
+
+This project was built using the following technologies and libraries:
+
+- HTML
+- CSS
+- JavaScript
+
 ## HTML Tags
 
 ### `<html>`
@@ -35,3 +43,13 @@ CSS is a styling language used to control the presentation of HTML elements.
 ## Tailwind CSS
 
 Tailwind CSS is a utility-first CSS framework that provides low-level utility classes to build designs directly in your markup.
+
+## Challenges Faced
+
+During the development of this project, we faced a few challenges, including:
+
+- Implementing responsive design for a variety of screen sizes.
+- Achieving pixel-perfect styling and layout was time-consuming, especially given the rich design of the Lenskart website.
+
+To overcome these challenges, we have explore through different platforms and with help of mentor and team work.
+
