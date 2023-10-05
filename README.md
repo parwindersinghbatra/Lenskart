@@ -5,6 +5,10 @@ Lenskart was founded in 2010 by Peyush Bansal and Amit Chaudhary with the goal o
 
 ### Repositories :- [Click Here](https://parwindersinghbatra.github.io/Lenskart)
 
+## Project Description
+
+This project is a front-end clone of the Lenskart sunglasses page. It aims to provide users with a similar experience to the original Lenskart website.
+
 ## Technologies Used
 
 This project was built using the following technologies and libraries:
