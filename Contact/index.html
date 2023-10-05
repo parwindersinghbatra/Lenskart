@@ -1,0 +1,1859 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="./"/>
+    
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://static1.lenskart.com/media/desktop/img/Sep23/13-Sep/lenskart-logo-new-144x144.png"
+    />
+    <title>
+      Eyeglasses, Sunglasses, Contact Lens Online - Lenskart IN Clone
+    </title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+    tailwind.config={
+        theme:{
+            extend:{
+              fontSize: {
+                  'sm': '15px',
+                  'lig':'14px',
+                  'reg':'20px',
+                  },
+             fontFamily: {
+                  'LKFuturaMdBT': ['futura-md-bt-medium', sans-serif],
+                  'LKFuturaStdMedium':['futura-std-medium', sans-serif],
+                  'LKSansRegular':['the-sans-regular', sans-serif],
+                  'LKsansHari':['work-sans-hairline', sans-serif],
+
+                 },
+             }
+        }
+    }
+    </script>
+  </head>
+  <body>
+    <main>
+  <header class="header">
+    <div class="nav">
+      <div class="nav-top-layer">
+        <div class="nav-top-layer-left">
+          <ul>
+            <li class="pad">
+              <a href="#">Do More,Be More</a>
+            </li>
+
+            <li class="left-vertical-line">
+              <a href="#">Tryin3D</a>
+            </li>
+            <li class="left-vertical-line">
+              <a href="#">StoreLocator</a>
+            </li>
+            <li class="left-vertical-line">
+              <a href="#">Quality</a>
+            </li>
+            <li class="left-vertical-line">
+              <a href="#">USA</a>
+            </li>
+            <li class="left-vertical-line">
+              <a href="#">Singapore</a>
+            </li>
+            <li class="left-vertical-line">
+              <a href="#">UAE</a>
+            </li>
+            <li class="left-vertical-line hide-on-tab">
+              <a href="#">John Jacobs</a>
+            </li>
+            <li class="left-vertical-line hide-on-tab">
+              <a href="#">Aqualens</a>
+            </li>
+            <li class="left-vertical-line hide-on-1200">
+              <a href="#">Cobrowsing</a>
+            </li>
+            <li class="left-vertical-line hide-on-tab">
+              <a href="#">Engineering Blog</a>
+            </li>
+            <li class="left-vertical-line hide-on-1200">
+              <a href="#">Lenskart Franchise</a>
+            </li>
+            <li class="left-vertical-line hide-on-984">
+              <a href="#">Lenskart Optom Partner Program</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <a href="#">Contact Us</a>
+        </div>
+      </div>
+
+      <div class="nav-middle-layer">
+        <div class="nav-logo-number">
+          <a  href="#">
+            <img
+              loading="lazy"
+              class="lenskart-logo"
+              src="https://static.lenskart.com/media/desktop/img/site-images/main_logo.svg"
+            />
+            <img class="logo-for-phone" src="https://static5.lenskart.com/media/uploads/home-new-lenskart-logo.png" alt="">
+          </a>
+          <img
+            loading="lazy"
+            class="phone-number"
+            src="https://static.lenskart.com/media/mobile/images/phone_number.svg"
+            alt="Phone number"
+          />
+        </div>
+
+        <div class="nav-search">
+            <span class="material-symbols-outlined ">
+                search
+                </span> <input type="text" placeholder="What are you looking for ?" />
+        </div>
+
+        <div class="nav-middle-link">
+          <div class="hide-on-1064">
+            <a href="#">TrackOrder</a>
+          </div>
+          <div class="scanner-on-mobile">
+            <img src="https://cdn.iconscout.com/icon/premium/png-512-thumb/qr-scan-5605326-4748921.png?f=webp&w=256" alt="">
+            <a href="">Sign In & Sign Up</a>
+          </div>
+          <div class="nav-link">
+            <div class="nav-link-icon">
+              <svg
+                width="1.7em"
+                height="1.7em"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#WishListNew_svg__a)">
+                  <path
+                    clip-rule="evenodd"
+                    d="M11.993 5.136c-2-2.338-5.333-2.966-7.838-.826s-2.858 5.719-.89 8.25c1.635 2.105 6.585 6.544 8.207 7.98.182.162.272.242.378.274a.504.504 0 0 0 .286 0c.106-.032.197-.112.378-.273 1.623-1.437 6.573-5.876 8.208-7.98 1.967-2.532 1.658-6.133-.89-8.251-2.549-2.118-5.84-1.512-7.839.826Z"
+                    stroke="#333368"
+                    stroke-width="1.5"
+                    stroke-linejoin="round"
+                  ></path>
+                </g>
+                <defs>
+                  <clipPath id="WishListNew_svg__a">
+                    <path fill="#fff" d="M0 0h24v24H0z"></path>
+                  </clipPath>
+                </defs>
+              </svg>
+            </div>
+            <span class="hide-on-1064">Wishlist</span>
+          </div>
+          <div class="nav-link">
+            <div class="nav-link-icon">
+              <svg
+                width="1.7em"
+                height="1.7em"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16 9V6a4 4 0 0 0-8 0v3m-4.408 1.352-.6 6.4c-.17 1.82-.256 2.73.046 3.432a3 3 0 0 0 1.32 1.45C5.03 22 5.944 22 7.771 22h8.458c1.828 0 2.742 0 3.413-.366a3 3 0 0 0 1.32-1.45c.302-.703.217-1.612.046-3.432l-.6-6.4c-.144-1.537-.216-2.305-.561-2.886a3 3 0 0 0-1.292-1.176C17.945 6 17.173 6 15.629 6H8.371c-1.543 0-2.315 0-2.925.29a3 3 0 0 0-1.292 1.176c-.346.581-.418 1.35-.562 2.886Z"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linejoin="round"
+                ></path>
+              </svg>
+            </div>
+            <span class="hide-on-1064">Cart</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- nav-on-mobile -->
+      <div class="home-nav-on-phone">
+        <section class="second_section">
+            <p class="left_part"> Buy 1 & Get 1 Free</p>
+            <p class="right_part">Join GOLD <i class="fa-solid fa-greater-than"></i></p>
+        </section>
+        <section class="third_section">
+            <img src="https://static1.lenskart.com/media/desktop/img/jun23/home/27jun/Home-new-Channels-store.png" alt="Buy at Store" class="third_section_images">
+            <img src="https://static1.lenskart.com/media/desktop/img/jun23/home/27jun/Home-new-Channels-home.png">
+            <img src="https://static1.lenskart.com/media/desktop/img/jul23/home/02jul/home-new-channels-chat-2-jul.png" alt="buy on chat" class="third_section_images">
+        </section>
+    </div>
+      <div class="nav-bottem-layer">
+        <div class="nav-bottem-left">
+          <div class="button-for-render-nav">
+            <a href="#">EYEGLASSES</a>
+
+            <div class="rendered-container-on-hover">
+              <div class="grid-container">
+                <div></div>
+                <div class="cont-flex-row"></div>
+                <div class="cont-flex-col">
+                  <div class="gender-container men-div">
+                    <img
+                      class="gender-image"
+                      src="https://static.lenskart.com/media/desktop/img/men_pic.png"
+                      alt="Men"
+                    /><span class="gender-text">Men</span>
+                    <div class="icon-svg-div">
+                      <svg
+                        width="1em"
+                        height="1em"
+                        viewBox="0 0 11 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="m1 1 8.333 7.5L1 16"
+                          stroke="#666"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="gender-container eye-flex-c">
+                    <img
+                      class="gender-image getGaData"
+                      src="https://static.lenskart.com/media/desktop/img/women_pic.png"
+                      alt="Women"
+                    />
+                    <span class="gender-text">Women</span>
+                    <div class="icon-svg-div">
+                      <svg
+                        width="1em"
+                        height="1em"
+                        viewBox="0 0 11 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="m1 1 8.333 7.5L1 16"
+                          stroke="#666"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="gender-container men-div">
+                    <img
+                      class="gender-image"
+                      src="https://static.lenskart.com/media/desktop/img/kid_pic.png"
+                      alt="Kids"
+                    /><span class="gender-text">Kids</span>
+                    <div class="icon-svg-div">
+                      <svg
+                        width="1em"
+                        height="1em"
+                        viewBox="0 0 11 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="m1 1 8.333 7.5L1 16"
+                          stroke="#666"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <a class="eye-sel">SELECT CATEGORY</a>
+                <div class="ey-flex-row"></div>
+                <div class="cont-flex-col">
+                  <a class="CategoryBox--1v4noqe eye-classic-color" href=""
+                    ><div class="CategoryTextContainer--4vmzev eye-cat-col">
+                      <span class="CategoryText--jcpke7 eye-cat-deco"
+                        >CLASSIC EYEGLASSES</span
+                      ><span class="CategoryText--jcpke7 eye-cat-deco"
+                        >Starting from <b>₹1200</b></span
+                      >
+                    </div>
+                    <div class="icon-svg-div">
+                      <svg
+                        width="1em"
+                        height="1em"
+                        viewBox="0 0 11 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="m1 1 8.333 7.5L1 16"
+                          stroke="#666"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        ></path>
+                      </svg></div></a
+                  ><a
+                    class="CategoryBox--1v4noqe eye-no-wrp"
+                    href="/eyeglasses/marketing/bestsellers-premium-eyeglasses.html"
+                    ><div class="CategoryTextContainer--4vmzev eye-cat-col">
+                      <span class="CategoryText--jcpke7 eye-cat-deco"
+                        >PREMIUM EYEGLASSES</span
+                      ><span class="CategoryText--jcpke7 eye-cat-deco"
+                        >Starting from <b>₹3000</b></span
+                      >
+                    </div>
+                    <div class="icon-svg-div">
+                      <svg
+                        width="1em"
+                        height="1em"
+                        viewBox="0 0 11 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="m1 1 8.333 7.5L1 16"
+                          stroke="#666"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        ></path>
+                      </svg></div></a
+                  ><a
+                    class="CategoryBox--1v4noqe eye-no-wrp"
+                    href="/eyeglasses/collections/all-computer-glasses.html"
+                    ><div class="CategoryTextContainer--4vmzev eye-cat-col">
+                      <span class="CategoryText--jcpke7 eye-cat-deco"
+                        >COMPUTER EYEGLASSES</span
+                      ><span class="CategoryText--jcpke7 eye-cat-deco"
+                        >Starting from <b>₹500</b></span
+                      >
+                    </div>
+                    <div class="icon-svg-div">
+                      <svg
+                        width="1em"
+                        height="1em"
+                        viewBox="0 0 11 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="m1 1 8.333 7.5L1 16"
+                          stroke="#666"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        ></path>
+                      </svg></div
+                  ></a>
+                </div>
+                <a class="eye-sel">Our Top Picks</a>
+                <div class="ey-flex-row"></div>
+                <div class="cont-flex-col">
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">New Arrivals</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">Best Seller</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href=""
+                      >Lenskart BLU Lenses</a
+                    >
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">Trending</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href=""
+                      >Computer Eyeglasses</a
+                    >
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href=""
+                      >Tinted Eyeglasses</a
+                    >
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href=""
+                      >Progressive Eyeglasses</a
+                    >
+                  </div>
+                </div>
+                <a class="eye-sel">Frame Type</a>
+                <div class="ey-flex-row"></div>
+                <div class="cont-flex-col">
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href=""
+                      >Rectangle Frames</a
+                    >
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href=""
+                      >Wayfarer Frames</a
+                    >
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">Round Frames</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV getGaData" href=""
+                      >Aviator Frames</a
+                    >
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">Cat-Eye Frames</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">Rimless Frames</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">Halfrim Frames</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href=""
+                      >Geometric Frames</a
+                    >
+                  </div>
+                </div>
+                <a class="eye-sel">Collection</a>
+                <div class="ey-flex-row"></div>
+                <div class="cont-flex-col">
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">Switch Grip</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">Air Essentials</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">Urban Edit</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">Blend Edit</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">Sleek Steel</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href=""
+                      >Switch - Magnetic Clips-On</a
+                    >
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">Air Flex</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">Air Wrap</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href=""
+                      >Classic Acetate</a
+                    >
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">Essential Edit</a>
+                  </div>
+                </div>
+                <a class="eye-sel">Brands</a>
+                <div class="ey-flex-row"></div>
+                <div class="cont-flex-col">
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">Vincent Chase</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">Lenskart Air</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">John Jacobs</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">OJOS</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">New Balance</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href=""
+                      >Lenskart STUDIO</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Top layer -->
+
+            <!-- Bottom layer -->
+          </div>
+
+
+
+          <div class="button-for-render-nav">
+            <a href="#">COMPUTER GLASSES</a>
+            <div class="rendered-container-on-hover">
+              <div class="grid-container">
+                <div></div>
+                <div class="cont-flex-row"></div>
+                <div class="cont-flex-col">
+                  <div class="gender-container men-div">
+                    <img
+                      class="gender-image"
+                      src="https://static.lenskart.com/media/desktop/img/men_pic.png"
+                      alt="Men"
+                    /><span class="gender-text">Men</span>
+                    <div class="icon-svg-div">
+                      <svg
+                        width="1em"
+                        height="1em"
+                        viewBox="0 0 11 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="m1 1 8.333 7.5L1 16"
+                          stroke="#666"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="gender-container eye-flex-c">
+                    <img
+                      class="gender-image getGaData"
+                      src="https://static.lenskart.com/media/desktop/img/women_pic.png"
+                      alt="Women"
+                    />
+                    <span class="gender-text">Women</span>
+                    <div class="icon-svg-div">
+                      <svg
+                        width="1em"
+                        height="1em"
+                        viewBox="0 0 11 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="m1 1 8.333 7.5L1 16"
+                          stroke="#666"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="gender-container men-div">
+                    <img
+                      class="gender-image"
+                      src="https://static.lenskart.com/media/desktop/img/kid_pic.png"
+                      alt="Kids"
+                    /><span class="gender-text">Kids</span>
+                    <div class="icon-svg-div">
+                      <svg
+                        width="1em"
+                        height="1em"
+                        viewBox="0 0 11 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="m1 1 8.333 7.5L1 16"
+                          stroke="#666"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <a class="eye-sel">SELECT CATEGORY</a>
+                <div class="ey-flex-row"></div>
+                <div class="cont-flex-col">
+                  <a class="CategoryBox--1v4noqe eye-classic-color" href=""
+                    ><div class="CategoryTextContainer--4vmzev eye-cat-col">
+                      <span class="CategoryText--jcpke7 eye-cat-deco"
+                        >CLASSIC EYEGLASSES</span
+                      ><span class="CategoryText--jcpke7 eye-cat-deco"
+                        >Starting from <b>₹1200</b></span
+                      >
+                    </div>
+                    <div class="icon-svg-div">
+                      <svg
+                        width="1em"
+                        height="1em"
+                        viewBox="0 0 11 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="m1 1 8.333 7.5L1 16"
+                          stroke="#666"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        ></path>
+                      </svg></div></a
+                  ><a
+                    class="CategoryBox--1v4noqe eye-no-wrp"
+                    href="/eyeglasses/marketing/bestsellers-premium-eyeglasses.html"
+                    ><div class="CategoryTextContainer--4vmzev eye-cat-col">
+                      <span class="CategoryText--jcpke7 eye-cat-deco"
+                        >PREMIUM EYEGLASSES</span
+                      ><span class="CategoryText--jcpke7 eye-cat-deco"
+                        >Starting from <b>₹3000</b></span
+                      >
+                    </div>
+                    <div class="icon-svg-div">
+                      <svg
+                        width="1em"
+                        height="1em"
+                        viewBox="0 0 11 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="m1 1 8.333 7.5L1 16"
+                          stroke="#666"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        ></path>
+                      </svg></div></a
+                  ><a
+                    class="CategoryBox--1v4noqe eye-no-wrp"
+                    href="/eyeglasses/collections/all-computer-glasses.html"
+                    ><div class="CategoryTextContainer--4vmzev eye-cat-col">
+                      <span class="CategoryText--jcpke7 eye-cat-deco"
+                        >COMPUTER EYEGLASSES</span
+                      ><span class="CategoryText--jcpke7 eye-cat-deco"
+                        >Starting from <b>₹500</b></span
+                      >
+                    </div>
+                    <div class="icon-svg-div">
+                      <svg
+                        width="1em"
+                        height="1em"
+                        viewBox="0 0 11 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="m1 1 8.333 7.5L1 16"
+                          stroke="#666"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        ></path>
+                      </svg></div
+                  ></a>
+                </div>
+                <a class="eye-sel">Our Top Picks</a>
+                <div class="ey-flex-row"></div>
+                <div class="cont-flex-col">
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">New Arrivals</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">Best Seller</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href=""
+                      >Lenskart BLU Lenses</a
+                    >
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">Trending</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href=""
+                      >Computer Eyeglasses</a
+                    >
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href=""
+                      >Tinted Eyeglasses</a
+                    >
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href=""
+                      >Progressive Eyeglasses</a
+                    >
+                  </div>
+                </div>
+                <a class="eye-sel">Frame Type</a>
+                <div class="ey-flex-row"></div>
+                <div class="cont-flex-col">
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href=""
+                      >Rectangle Frames</a
+                    >
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href=""
+                      >Wayfarer Frames</a
+                    >
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">Round Frames</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV getGaData" href=""
+                      >Aviator Frames</a
+                    >
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">Cat-Eye Frames</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">Rimless Frames</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">Halfrim Frames</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href=""
+                      >Geometric Frames</a
+                    >
+                  </div>
+                </div>
+                <a class="eye-sel">Collection</a>
+                <div class="ey-flex-row"></div>
+                <div class="cont-flex-col">
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">Switch Grip</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">Air Essentials</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">Urban Edit</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">Blend Edit</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">Sleek Steel</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href=""
+                      >Switch - Magnetic Clips-On</a
+                    >
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">Air Flex</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">Air Wrap</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href=""
+                      >Classic Acetate</a
+                    >
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">Essential Edit</a>
+                  </div>
+                </div>
+                <a class="eye-sel">Brands</a>
+                <div class="ey-flex-row"></div>
+                <div class="cont-flex-col">
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">Vincent Chase</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">Lenskart Air</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">John Jacobs</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">OJOS</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">New Balance</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href=""
+                      >Lenskart STUDIO</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- kids-glasses-on-hover -->
+          <div class="button-for-render-nav">
+            <a href="#">KIDS GLASSES</a>
+            <!-- kids-glasses -->
+            <div class="rendered-container-on-hover">
+              <section class="kg-inner-container">
+                <div class="kg-container">
+                  <img src="https://static1.lenskart.com/media/desktop/img/May22/glasses.jpg" alt="">
+                  <p class="kg-para">Eyeglasses</p>
+                </div>
+                <div class="kg-container">
+                  <img src="https://static1.lenskart.com/media/desktop/img/May22/computer-glasses.jpg" alt="">
+                  <p class="kg-para">Zero Power Computer Glasses</p>
+                </div>
+                <div class="kg-container">
+                  <img src="https://static1.lenskart.com/media/desktop/img/May22/Sunnies.jpg" alt="">
+                  <p class="kg-para">Sunglasses</p>
+                </div>
+              </section>
+            </div>
+          </div>
+          <!-- contact-on-hover-effect -->
+
+          <div class="button-for-render-nav">
+            <a href="#">CONTACT LENSES</a>
+
+            <div class="rendered-container-on-hover">
+              <div class="grid-container">
+                <div></div>
+                <div class="cont-flex-row"></div>
+                <div class="cont-flex-col">
+                  <div class="gender-container men-div">
+                    <img
+                      class="gender-image"
+                      src="https://static.lenskart.com/media/desktop/img/men_pic.png"
+                      alt="Men"
+                    /><span class="gender-text">Men</span>
+                    <div class="icon-svg-div">
+                      <svg
+                        width="1em"
+                        height="1em"
+                        viewBox="0 0 11 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="m1 1 8.333 7.5L1 16"
+                          stroke="#666"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="gender-container eye-flex-c">
+                    <img
+                      class="gender-image getGaData"
+                      src="https://static.lenskart.com/media/desktop/img/women_pic.png"
+                      alt="Women"
+                    />
+                    <span class="gender-text">Women</span>
+                    <div class="icon-svg-div">
+                      <svg
+                        width="1em"
+                        height="1em"
+                        viewBox="0 0 11 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="m1 1 8.333 7.5L1 16"
+                          stroke="#666"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="gender-container men-div">
+                    <img
+                      class="gender-image"
+                      src="https://static.lenskart.com/media/desktop/img/kid_pic.png"
+                      alt="Kids"
+                    /><span class="gender-text">Kids</span>
+                    <div class="icon-svg-div">
+                      <svg
+                        width="1em"
+                        height="1em"
+                        viewBox="0 0 11 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="m1 1 8.333 7.5L1 16"
+                          stroke="#666"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <a class="eye-sel">SELECT CATEGORY</a>
+                <div class="ey-flex-row"></div>
+                <div class="cont-flex-col">
+                  <a class="CategoryBox--1v4noqe eye-classic-color" href=""
+                    ><div class="CategoryTextContainer--4vmzev eye-cat-col">
+                      <span class="CategoryText--jcpke7 eye-cat-deco"
+                        >CLASSIC EYEGLASSES</span
+                      ><span class="CategoryText--jcpke7 eye-cat-deco"
+                        >Starting from <b>₹1200</b></span
+                      >
+                    </div>
+                    <div class="icon-svg-div">
+                      <svg
+                        width="1em"
+                        height="1em"
+                        viewBox="0 0 11 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="m1 1 8.333 7.5L1 16"
+                          stroke="#666"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        ></path>
+                      </svg></div></a
+                  ><a
+                    class="CategoryBox--1v4noqe eye-no-wrp"
+                    href="/eyeglasses/marketing/bestsellers-premium-eyeglasses.html"
+                    ><div class="CategoryTextContainer--4vmzev eye-cat-col">
+                      <span class="CategoryText--jcpke7 eye-cat-deco"
+                        >PREMIUM EYEGLASSES</span
+                      ><span class="CategoryText--jcpke7 eye-cat-deco"
+                        >Starting from <b>₹3000</b></span
+                      >
+                    </div>
+                    <div class="icon-svg-div">
+                      <svg
+                        width="1em"
+                        height="1em"
+                        viewBox="0 0 11 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="m1 1 8.333 7.5L1 16"
+                          stroke="#666"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        ></path>
+                      </svg></div></a
+                  ><a
+                    class="CategoryBox--1v4noqe eye-no-wrp"
+                    href="/eyeglasses/collections/all-computer-glasses.html"
+                    ><div class="CategoryTextContainer--4vmzev eye-cat-col">
+                      <span class="CategoryText--jcpke7 eye-cat-deco"
+                        >COMPUTER EYEGLASSES</span
+                      ><span class="CategoryText--jcpke7 eye-cat-deco"
+                        >Starting from <b>₹500</b></span
+                      >
+                    </div>
+                    <div class="icon-svg-div">
+                      <svg
+                        width="1em"
+                        height="1em"
+                        viewBox="0 0 11 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="m1 1 8.333 7.5L1 16"
+                          stroke="#666"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        ></path>
+                      </svg></div
+                  ></a>
+                </div>
+                <a class="eye-sel">Our Top Picks</a>
+                <div class="ey-flex-row"></div>
+                <div class="cont-flex-col">
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">New Arrivals</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">Best Seller</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href=""
+                      >Lenskart BLU Lenses</a
+                    >
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">Trending</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href=""
+                      >Computer Eyeglasses</a
+                    >
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href=""
+                      >Tinted Eyeglasses</a
+                    >
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href=""
+                      >Progressive Eyeglasses</a
+                    >
+                  </div>
+                </div>
+                <a class="eye-sel">Frame Type</a>
+                <div class="ey-flex-row"></div>
+                <div class="cont-flex-col">
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href=""
+                      >Rectangle Frames</a
+                    >
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href=""
+                      >Wayfarer Frames</a
+                    >
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">Round Frames</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV getGaData" href=""
+                      >Aviator Frames</a
+                    >
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">Cat-Eye Frames</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">Rimless Frames</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">Halfrim Frames</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href=""
+                      >Geometric Frames</a
+                    >
+                  </div>
+                </div>
+                <a class="eye-sel">Collection</a>
+                <div class="ey-flex-row"></div>
+                <div class="cont-flex-col">
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">Switch Grip</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">Air Essentials</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">Urban Edit</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">Blend Edit</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">Sleek Steel</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href=""
+                      >Switch - Magnetic Clips-On</a
+                    >
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">Air Flex</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">Air Wrap</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href=""
+                      >Classic Acetate</a
+                    >
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">Essential Edit</a>
+                  </div>
+                </div>
+                <a class="eye-sel">Brands</a>
+                <div class="ey-flex-row"></div>
+                <div class="cont-flex-col">
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">Vincent Chase</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">Lenskart Air</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">John Jacobs</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">OJOS</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">New Balance</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href=""
+                      >Lenskart STUDIO</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="button-for-render-nav">
+            <a href="#">SUNGLASSES</a>
+            <div class="rendered-container-on-hover">
+              <div class="grid-container">
+                <div></div>
+                <div class="cont-flex-row"></div>
+                <div class="cont-flex-col">
+                  <div class="gender-container men-div">
+                    <img
+                      class="gender-image"
+                      src="https://static.lenskart.com/media/desktop/img/men_pic.png"
+                      alt="Men"
+                    /><span class="gender-text">Men</span>
+                    <div class="icon-svg-div">
+                      <svg
+                        width="1em"
+                        height="1em"
+                        viewBox="0 0 11 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="m1 1 8.333 7.5L1 16"
+                          stroke="#666"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="gender-container eye-flex-c">
+                    <img
+                      class="gender-image getGaData"
+                      src="https://static.lenskart.com/media/desktop/img/women_pic.png"
+                      alt="Women"
+                    />
+                    <span class="gender-text">Women</span>
+                    <div class="icon-svg-div">
+                      <svg
+                        width="1em"
+                        height="1em"
+                        viewBox="0 0 11 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="m1 1 8.333 7.5L1 16"
+                          stroke="#666"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="gender-container men-div">
+                    <img
+                      class="gender-image"
+                      src="https://static.lenskart.com/media/desktop/img/kid_pic.png"
+                      alt="Kids"
+                    /><span class="gender-text">Kids</span>
+                    <div class="icon-svg-div">
+                      <svg
+                        width="1em"
+                        height="1em"
+                        viewBox="0 0 11 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="m1 1 8.333 7.5L1 16"
+                          stroke="#666"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <a class="eye-sel">SELECT CATEGORY</a>
+                <div class="ey-flex-row"></div>
+                <div class="cont-flex-col">
+                  <a class="CategoryBox--1v4noqe eye-classic-color" href=""
+                    ><div class="CategoryTextContainer--4vmzev eye-cat-col">
+                      <span class="CategoryText--jcpke7 eye-cat-deco"
+                        >CLASSIC EYEGLASSES</span
+                      ><span class="CategoryText--jcpke7 eye-cat-deco"
+                        >Starting from <b>₹1200</b></span
+                      >
+                    </div>
+                    <div class="icon-svg-div">
+                      <svg
+                        width="1em"
+                        height="1em"
+                        viewBox="0 0 11 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="m1 1 8.333 7.5L1 16"
+                          stroke="#666"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        ></path>
+                      </svg></div></a
+                  ><a
+                    class="CategoryBox--1v4noqe eye-no-wrp"
+                    href="/eyeglasses/marketing/bestsellers-premium-eyeglasses.html"
+                    ><div class="CategoryTextContainer--4vmzev eye-cat-col">
+                      <span class="CategoryText--jcpke7 eye-cat-deco"
+                        >PREMIUM EYEGLASSES</span
+                      ><span class="CategoryText--jcpke7 eye-cat-deco"
+                        >Starting from <b>₹3000</b></span
+                      >
+                    </div>
+                    <div class="icon-svg-div">
+                      <svg
+                        width="1em"
+                        height="1em"
+                        viewBox="0 0 11 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="m1 1 8.333 7.5L1 16"
+                          stroke="#666"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        ></path>
+                      </svg></div></a
+                  ><a
+                    class="CategoryBox--1v4noqe eye-no-wrp"
+                    href="/eyeglasses/collections/all-computer-glasses.html"
+                    ><div class="CategoryTextContainer--4vmzev eye-cat-col">
+                      <span class="CategoryText--jcpke7 eye-cat-deco"
+                        >COMPUTER EYEGLASSES</span
+                      ><span class="CategoryText--jcpke7 eye-cat-deco"
+                        >Starting from <b>₹500</b></span
+                      >
+                    </div>
+                    <div class="icon-svg-div">
+                      <svg
+                        width="1em"
+                        height="1em"
+                        viewBox="0 0 11 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="m1 1 8.333 7.5L1 16"
+                          stroke="#666"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        ></path>
+                      </svg></div
+                  ></a>
+                </div>
+                <a class="eye-sel">Our Top Picks</a>
+                <div class="ey-flex-row"></div>
+                <div class="cont-flex-col">
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">New Arrivals</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">Best Seller</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href=""
+                      >Lenskart BLU Lenses</a
+                    >
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">Trending</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href=""
+                      >Computer Eyeglasses</a
+                    >
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href=""
+                      >Tinted Eyeglasses</a
+                    >
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href=""
+                      >Progressive Eyeglasses</a
+                    >
+                  </div>
+                </div>
+                <a class="eye-sel">Frame Type</a>
+                <div class="ey-flex-row"></div>
+                <div class="cont-flex-col">
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href=""
+                      >Rectangle Frames</a
+                    >
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href=""
+                      >Wayfarer Frames</a
+                    >
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">Round Frames</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV getGaData" href=""
+                      >Aviator Frames</a
+                    >
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">Cat-Eye Frames</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">Rimless Frames</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">Halfrim Frames</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href=""
+                      >Geometric Frames</a
+                    >
+                  </div>
+                </div>
+                <a class="eye-sel">Collection</a>
+                <div class="ey-flex-row"></div>
+                <div class="cont-flex-col">
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">Switch Grip</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">Air Essentials</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">Urban Edit</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">Blend Edit</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">Sleek Steel</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href=""
+                      >Switch - Magnetic Clips-On</a
+                    >
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">Air Flex</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">Air Wrap</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href=""
+                      >Classic Acetate</a
+                    >
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">Essential Edit</a>
+                  </div>
+                </div>
+                <a class="eye-sel">Brands</a>
+                <div class="ey-flex-row"></div>
+                <div class="cont-flex-col">
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">Vincent Chase</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">Lenskart Air</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">John Jacobs</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">OJOS</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href="">New Balance</a>
+                  </div>
+                  <div class="SubMenuLinkContainer--18qkjx kqyBkv">
+                    <a class="SubMenuLinkText--ot0xjk cXnaGV" href=""
+                      >Lenskart STUDIO</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Home eye test on hover -->
+          <div class="button-for-render-nav">
+            <a href="#">HOME EYE-TEST</a>
+
+            
+            <div class="rendered-container-on-hover">
+              <div class="sec-main">
+                  <div class="doctor">
+                      <img src="https://static1.lenskart.com/media/desktop/img/HomeTryOut.png" alt="">
+                  </div>
+                  <div class="paragraph">
+                      <div class="get-your">
+                          <p>Get your eyes checked at home</p>
+                      </div>
+                      <div class="a-certified">
+                          <p>A certified refractionist will visit you with
+                              latest eye testing machines & 100 trial frames</p>
+                      </div>
+                      <div class="book-appointment">Book Appointment</div>
+                  </div>
+              </div>
+          </div>
+
+          </div>
+
+
+
+          <div class="button-for-render-nav">
+            <a href="#">STORE LOCATOR</a>
+            <!-- store-locator-on-function-below -->
+            <div class="store-locator-container rendered-container-on-hover">
+              <div class="left-store-locator-box">
+                <div class="left-store-locator-box-content">
+                  <h3>Over 1100+ Lenskart Store</h3>
+                  <p>
+                    Experience eyewear in a whole new way: Visit your nearest store
+                    and treat yourself to 5000+ eyewear styles.
+                  </p>
+                  <button>Locate a store</button>
+                </div>
+              </div>
+              <!-- store-locator-container------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+              <div class="right-store-locator-box">
+                <div class="locations-container">
+                  <a href="">
+                    <div class="city-container">
+                      <p><img src="https://static.lenskart.com/media/desktop/img/Delhi1.png" alt="city"></p>
+                      <span class="right-span-20">Delhi</span>
+                    </div>
+                  </a>
+                  <a href="">
+                    <div class="city-container">
+                      <p><img src="https://static.lenskart.com/media/desktop/img/Banglore1.png" alt="city"></p>
+                      <span>Bangalore</span>
+                    </div>
+                  </a>
+                  <a href="">
+                    <div class="city-container">
+                      <p> <img src="https://static.lenskart.com/media/desktop/img/Mumbai1.png" alt="city"></p>
+                      <span>Mumbai</span>
+                    </div>
+                  </a>
+                  <a href="">
+                    <div class="city-container">
+                      <p><img src="https://static.lenskart.com/media/desktop/img/Ahmedabad1.png" alt="city"></p>
+                      <span class="right-span-4">Ahmedabad</span>
+                    </div>
+                  </a>
+                  <a href="">
+                    <div class="city-container">
+                      <p><img src="https://static.lenskart.com/media/desktop/img/Chennai1.png" alt="city"></p>
+                      <span>Chennai</span>
+                    </div>
+                  </a>
+                  <a href="">
+                    <div class="city-container">
+                      <p><img src="https://static.lenskart.com/media/desktop/img/Hyderabad1.png" alt="city"></p>
+                      <span>Hyderabad</span>
+                    </div>
+                  </a>
+                  <a href="">
+                    <div class="city-container">
+                      <p><img src="https://static.lenskart.com/media/desktop/img/Cities1.png" alt="city"></p>
+                      <span>1100+ Cities</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <!-- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------   -->
+            </div>
+          </div>
+        </div>
+        <div class="nav-bottem-right">
+          <div class="nav-bottom-image-div">
+            <img loading="lazy" src="https://static1.lenskart.com/media/desktop/img/May22/3dtryon1.png" alt="3D try on" />
+          </div>
+          <div class="nav-bottom-image-div">
+            <img loading="lazy" src="https://static1.lenskart.com/media/desktop/img/Mar22/13-Mar/blulogo.png" alt="blu" />
+          </div>
+          <div class="nav-bottom-image-div">
+            <img loading="lazy" src="https://static.lenskart.com/media/desktop/img/Feb22/18-Feb/goldlogo.jpg" alt="gold" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+<!-- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+<!-- ==================================================================================================================== -->
+      <div class="nav-bottom-forth-layer h-25">
+        <div class="card-container">
+      <div class="container mx-auto" >
+        <div class="bg-[#8A8A8A] topmargin">
+          <h2 class="fntclass">ORDER WITH CONTACT LENS EXPERT - GIVE MISSED CALL ON <span class="text-[#DDC786]">+91 847-000-7367</span></h2>
+        </div>  
+          <div class="mt-1 mb-4"><img src="https://static1.lenskart.com/media/desktop/img/Sep23/13-Sep/fest211.jpg"></div> 
+          
+         <!-- =============================== | Grid | ===================================== -->
+            <div class="grid grid-cols-1 gap-1 md:grid-cols-2 lg:grid-cols-4">
+    
+          <!-- ---------------------- This is section first--------------------- -->
+              <div class="p-0 ml-3 border-2 border-gray-300 auto-rows-max h-min"> 
+                  <h2 class="brands text-[#2B9CB3] font-LKFuturaStdMedium">DISPOSABILITY</h2>
+                  <div class="flex items-center font-LKFuturaStd-Medium" >
+                    <div class="py-1"><img src='https://static.lenskart.com/images/cust_mailer/10-Oct-Contact-Lenses/monthly.jpg'></div>
+                 
+                    <div class="text-left w-6/12 ml-10 font-LKFuturaStdMedium text-lig text-[#333333]">Monthly</div>  
+                     <div class="colbox3"> ></div>  
+              </div>
+              <hr class="h-px bg-gray-300 border-0 dark:bg-gray-700">
+    
+              <div class="flex items-center">
+                <div class="py-1"><img src='https://static.lenskart.com/images/cust_mailer/10-Oct-Contact-Lenses/day-n-night.jpg'></div>
+                <div class="text-left w-6/12 ml-10 font-LKFuturaStdMedium text-lig text-[#333333]">Monthly Day and Night</div>  
+                 <div class="colbox3"> ></div>  
+          </div>
+          <hr class="h-px bg-gray-300 border-0 dark:bg-gray-700">
+          <div class="flex items-center">
+            <div class="py-1"><img src='https://static1.lenskart.com/media/desktop/img/Sep20/23Sep/aquadailies.jpg'></div>
+            <div class="text-left w-6/12 ml-10 font-LKFuturaStdMedium text-lig text-[#333333]">Daily </div>  
+             <div class="colbox3"> ></div>  
+      </div>
+      <hr class="h-px bg-gray-300 border-0 dark:bg-gray-700">
+             
+              <div class="flex items-center">
+                <div class="py-1"><img src='https://static.lenskart.com/images/cust_mailer/13-Nov-16/aqua1234.jpg'></div>
+                <div class="text-left w-6/12 ml-10 font-LKFuturaStdMedium text-lig text-[#333333]">Color Lenses </div>  
+                 <div class="colbox3"> ></div>  
+          </div>
+          <hr class="h-px bg-gray-300 border-0 dark:bg-gray-700">
+          <div class="flex items-center">
+            <div class="py-1"><img src='https://static.lenskart.com/images/cust_mailer/10-Oct-Contact-Lenses/yearly.jpg'></div>
+            <div class="text-left w-6/12 ml-10 font-LKFuturaStdMedium text-lig text-[#333333]">Yearly </div>  
+             <div class="colbox3"> ></div>  
+      </div>
+      <hr class="h-px bg-gray-300 border-0 dark:bg-gray-700">
+      <div class="flex items-center">
+        <div class="py-1"><img src='https://static.lenskart.com/images/cust_mailer/10-Oct-Contact-Lenses/biweekly.jpg'></div>
+        <div class="text-left w-6/12 ml-10 font-LKFuturaStdMedium text-lig text-[#333333]">2-weekly</div>  
+         <div class="colbox3"> ></div>  
+      </div>
+    </div>
+    <!-------------------------- First Section end -------------------------->
+    
+    <!------------------------ Second Section Starting----------------------->
+          <div class="p-0 ml-3 border-2 border-gray-300"> 
+            <h2 class="brands text-[#2B9CB3] font-LKFuturaStdMedium">BRANDS</h2>
+            <div class="flex items-center font-LKFuturaStd-Medium" >
+              <div class="py-1"><img src='https://static1.lenskart.com/media/desktop/img/Nov20/25-Nov/aqLogos.png'></div>
+              <div class="text-left w-6/12 ml-10 font-LKFuturaStdMedium text-lig text-[#333333]">Aqualens</div>  
+               <div class="colbox3"> ></div>  
+        </div>
+        <hr class="h-px bg-gray-300 border-0 dark:bg-gray-700">
+    
+        <div class="flex items-center">
+          <div class="py-1"><img src='https://static.lenskart.com/images/cust_mailer/10-Oct-Contact-Lenses/bausch-and-lomb.jpg'></div>
+          <div class="text-left w-6/12 ml-10 font-LKFuturaStdMedium text-lig text-[#333333]">Bausch & Lomb</div>  
+           <div class="colbox3"> ></div>  
+    </div>
+    <hr class="h-px bg-gray-300 border-0 dark:bg-gray-700">
+    <div class="flex items-center">
+      <div class="py-1"><img src='https://static.lenskart.com/images/cust_mailer/10-Oct-Contact-Lenses/soflens.jpg'></div>
+      <div class="text-left w-6/12 ml-10 font-LKFuturaStdMedium text-lig text-[#333333]">Soflens </div>  
+       <div class="colbox3"> ></div>  
+    </div>
+    <hr class="h-px bg-gray-300 border-0 dark:bg-gray-700">
+       
+        <div class="flex items-center">
+          <div class="py-1"><img src='https://static.lenskart.com/images/cust_mailer/10-Oct-Contact-Lenses/johnson.jpg'></div>
+          <div class="text-left w-6/12 ml-10 font-LKFuturaStdMedium text-lig text-[#333333]">Johnson & Johnson </div>  
+           <div class="colbox3"> ></div>  
+    </div>
+    <hr class="h-px bg-gray-300 border-0 dark:bg-gray-700">
+    <div class="flex items-center">
+      <div class="py-1"><img src='https://static.lenskart.com/images/cust_mailer/Lenskart-Website-Banners/iconnect.jpg'></div>
+      <div class="text-left w-6/12 ml-10 font-LKFuturaStdMedium text-lig text-[#333333]">Iconnect</div>  
+       <div class="colbox3"> ></div>  
+    </div>
+    <hr class="h-px bg-gray-300 border-0 dark:bg-gray-700">
+        <div class="flex items-center">
+            <div class="py-1"><img src='https://static.lenskart.com/images/cust_mailer/Lenskart-Website-Banners/alcon-cl-b.jpg'></div>
+            <div class="text-left w-6/12 ml-10 font-LKFuturaStdMedium text-lig text-[#333333]">Alcon</div>  
+            <div class="colbox3"> ></div>  
+    </div>
+    <hr class="h-px bg-gray-300 border-0 dark:bg-gray-700">
+        <div class="flex items-center">
+            <div class="py-1"><img src='https://static.lenskart.com/images/cust_mailer/10-Oct-Contact-Lenses/Acuvue.jpg'></div>
+            <div class="text-left w-6/12 ml-10 font-LKFuturaStdMedium text-lig text-[#333333]">Acuvue</div>  
+            <div class="colbox3"> ></div>  
+    </div>
+    <hr class="h-px bg-gray-300 border-0 dark:bg-gray-700">
+        <div class="flex items-center">
+            <div class="py-1"><img src='https://static.lenskart.com/images/cust_mailer/10-Oct-Contact-Lenses/optix.jpg'></div>
+            <div class="text-left w-6/12 ml-10 font-LKFuturaStdMedium text-lig text-[#333333]">Optix</div>  
+            <div class="colbox3"> ></div>  
+    </div>
+    <hr class="h-px bg-gray-300 border-0 dark:bg-gray-700">
+        <div class="flex items-center">
+            <div class="py-1"><img src='https://static.lenskart.com/images/cust_mailer/10-Oct-Contact-Lenses/focus.jpg'></div>
+            <div class="text-left w-6/12 ml-10 font-LKFuturaStdMedium text-lig text-[#333333]">Focus</div>  
+            <div class="colbox3"> ></div>  
+    </div>
+    <hr class="h-px bg-gray-300 border-0 dark:bg-gray-700">
+        <div class="flex items-center">
+            <div class="py-1"><img src='https://static.lenskart.com/images/cust_mailer/10-Oct-Contact-Lenses/pure.jpg'></div>
+            <div class="text-left w-6/12 ml-10 font-LKFuturaStdMedium text-lig text-[#333333]">Purevision</div>  
+            <div class="colbox3"> ></div>  
+    </div>
+    <hr class="h-px bg-gray-300 border-0 dark:bg-gray-700">
+        <div class="flex items-center">
+            <div class="py-1"><img src='https://static.lenskart.com/images/cust_mailer/10-Oct-Contact-Lenses/freshlook.jpg'></div>
+            <div class="text-left w-6/12 ml-10 font-LKFuturaStdMedium text-lig text-[#333333]">Freshlook</div>  
+            <div class="colbox3"> ></div>  
+    </div>
+    
+    <hr class="h-px bg-gray-300 border-0 dark:bg-gray-700">
+        <div class="flex items-center">
+            <div class="py-2"><img src='https://static.lenskart.com/images/cust_mailer/10-Oct-Contact-Lenses/dailies.jpg'></div>
+            <div class="text-left w-6/12 ml-10 font-LKFuturaStdMedium text-lig text-[#333333]">Dailies</div>  
+            <div class="colbox3"> ></div>  
+    </div>
+    
+    </div>
+    
+    <!------------------------- Second Section Ending --------------------- -->
+    <!-----------------------------Third Section Starting -------------------------- -->
+    <div class="p-0 ml-3 border-2 border-gray-300 h-min"> 
+      <h2 class="brands text-[#2B9CB3] font-LKFuturaStdMedium">POWER</h2>
+      <div class="flex items-center font-LKFuturaStd-Medium" >
+        <div class="py-1"><img src='https://static1.lenskart.com/media/desktop/img/Sep20/23Sep/aqua4.jpg'></div>
+        <div class="text-left w-6/12 ml-10 font-LKFuturaStdMedium text-lig text-[#333333]">[-] SPH Power <br /><span>(CY <0.5) </span></div>  
+         <div class="colbox3"> ></div>  
+    </div>
+    <hr class="h-px bg-gray-300 border-0 dark:bg-gray-700">
+    
+    <div class="flex items-center">
+    <div class="py-1"><img src='https://static.lenskart.com/images/cust_mailer/10-Oct-Contact-Lenses/plus-sph.jpg'></div>
+    <div class="text-left w-6/12 ml-10 font-LKFuturaStdMedium text-lig text-[#333333]">[+] SPH Power <br /><span>(CY <0.5) </span></div>  
+     <div class="colbox3"> ></div>  
+    </div>
+    <hr class="h-px bg-gray-300 border-0 dark:bg-gray-700">
+    <div class="flex items-center">
+    <div class="py-1"><img src='https://static.lenskart.com/images/cust_mailer/10-Oct-Contact-Lenses/cyl.jpg'></div>
+    <div class="text-left w-6/12 ml-10 font-LKFuturaStdMedium text-lig text-[#333333]">CYL Power <br /><span>(CY >0.75) </span> </div>  
+    <div class="colbox3"> ></div>  
+    </div>
+    <hr class="h-px bg-gray-300 border-0 dark:bg-gray-700">
+    
+    <div class="flex items-center mb-9">
+      <div class="py-1"><img src='https://static1.lenskart.com/media/desktop/img/Sep20/23Sep/aqua2.jpg'></div>
+      <div class="text-left w-6/12 ml-10 font-LKFuturaStdMedium text-lig text-[#333333]">Toric Power</div>  
+      <div class="colbox3"> ></div>  
+      </div>
+      <hr class="h-px bg-gray-300 border-0 dark:bg-gray-700">
+    
+    <h2 class="brands text-[#2B9CB3] font-LKFuturaStdMedium">LENS SOLUTION</h2>
+    <div class="flex items-center">
+    <div class="py-1"><img src='https://static.lenskart.com/images/cust_mailer/25-June/aqua.jpg'></div>
+    <div class="text-left w-6/12 ml-10 font-LKFuturaStdMedium text-lig text-[#333333]">Aqualens Confort </div>  
+     <div class="colbox3"> ></div>  
+    </div>
+    
+    
+    <hr class="h-px bg-gray-300 border-0 dark:bg-gray-700">
+    <div class="flex items-center">
+    <div class="py-1"><img src='https://static.lenskart.com/images/cust_mailer/Lenskart-Website-Banners/bio-2804.jpg'></div>
+    <div class="text-left w-6/12 ml-10 font-LKFuturaStdMedium text-lig text-[#333333]">Bio True </div>  
+    <div class="colbox3"> ></div>  
+    </div>
+    <hr class="h-px bg-gray-300 border-0 dark:bg-gray-700">
+    <div class="flex items-center">
+    <div class="py-1"><img src='https://static.lenskart.com/images/cust_mailer/Lenskart-Website-Banners/renu-2804.jpg'></div>
+    <div class="text-left w-6/12 ml-10 font-LKFuturaStdMedium text-lig text-[#333333]">Renu Fresh</div>  
+    <div class="colbox3"> ></div>  
+    </div>
+    <hr class="h-px bg-gray-300 border-0 dark:bg-gray-700">
+    <div class="flex items-center">
+    <div class="py-1"><img src='https://static.lenskart.com/images/cust_mailer/Lenskart-Website-Banners/opti-2804.jpg'></div>
+    <div class="text-left w-6/12 ml-10 font-LKFuturaStdMedium text-lig text-[#333333]">Opti-Free Replenish</div>  
+    <div class="colbox3"> ></div>  
+    </div>
+    </div>
+    <!------------------------- Third Section Ending ----------------------->
+    <!-----------------------------Fourth Section Starting ---------------------------->
+    <div class="p-0 ml-3 border-2 border-gray-300 h-min"> 
+      <h2 class="brands text-[#2B9CB3] font-LKFuturaStdMedium">COLOR</h2>
+      <div class="flex items-center font-LKFuturaStd-Medium" >
+        <div class="py-1"><img src='https://static1.lenskart.com/media/desktop/img/Nov20/25-Nov/99x53Reviss.png'></div>
+        <div class="text-left w-6/12 ml-10 font-LKFuturaStdMedium text-lig text-[#333333]">Aquacolor Premium</div>  
+         <div class="colbox3"> ></div>  
+    </div>
+    <hr class="h-px bg-gray-300 border-0 dark:bg-gray-700">
+    
+    <div class="flex items-center">
+    <div class="py-1"><img src='https://static.lenskart.com/images/cust_mailer/13-Nov-16/aqua1234.jpg'></div>
+    <div class="text-left w-6/12 ml-10 font-LKFuturaStdMedium text-lig text-[#333333]">Aquacolor</div>  
+     <div class="colbox3"> ></div>  
+    </div>
+    <hr class="h-px bg-gray-300 border-0 dark:bg-gray-700">
+    <div class="flex items-center">
+    <div class="py-1"><img src='https://static5.lenskart.com/images/cust_mailer/Nov-12th/freshlook_color_blend.jpg'></div>
+    <div class="text-left w-6/12 ml-10 font-LKFuturaStdMedium text-lig text-[#333333]">Freshlook </div>  
+    <div class="colbox3"> ></div>  
+    </div>
+    <hr class="h-px bg-gray-300 border-0 dark:bg-gray-700">
+    
+    <div class="flex items-center">
+    <div class="py-1"><img src='https://static1.lenskart.com/media/desktop/img/Nov20/25-Nov/FinalLilyBlue.jpg'></div>
+    <div class="text-left w-6/12 ml-10 font-LKFuturaStdMedium text-lig text-[#333333]">Clalen </div>  
+     <div class="colbox3"> ></div>  
+    </div>
+    <hr class="h-px bg-gray-300 border-0 dark:bg-gray-700">
+    <div class="flex items-center">
+    <div class="py-1"><img src='https://static1.lenskart.com/media/desktop/img/Sep20/23Sep/color.jpg'></div>
+    <div class="text-left w-6/12 ml-10 font-LKFuturaStdMedium text-lig text-[#333333]">Color with <br /><spam> no Power</spam></div>  
+    <div class="colbox3"> ></div>  
+    </div>
+    <hr class="h-px bg-gray-300 border-0 dark:bg-gray-700">
+    <div class="flex items-center">
+    <div class="py-1"><img src='https://static.lenskart.com/images/cust_mailer/13-Nov-16/fresh.jpg'></div>
+    <div class="text-left w-6/12 ml-10 font-LKFuturaStdMedium text-lig text-[#333333]">Color without <br /><spam> CYL Power</spam></div>  
+    <div class="colbox3"> ></div>  
+    </div>
+    <hr class="h-px bg-gray-300 border-0 dark:bg-gray-700">
+    <h2 class="brands text-[#2B9CB3] font-LKFuturaStdMedium mt-9">LENS CASE</h2>
+      <div class="flex items-center font-LKFuturaStd-Medium" >
+        <div class="py-1"><img src='https://static1.lenskart.com/media/desktop/img/case.jpg'></div>
+        <div class="text-left w-6/12 ml-10 font-LKFuturaStdMedium text-lig text-[#333333]">Lens Case</div>  
+         <div class="colbox3"> ></div>  
+    </div>
+    </div>
+    <!------------------------- Fourth Section Ending ----------------------->
+            </div>
+    <!--==================Grid End================-->
+          <div class="ml-7 mt-16 pb-9">
+              <h2 class="buyContactH3 mb-3">Buy Contact lenses Online from Lenskart starting at Rs 139 only</h2>
+              <p class="buyContactP text-slate-700">Buy Contact Lens at the best prices including Aqualens. One stop for all leading brands. Free Contact Lens Trial. Try Color Contact Lens. Free Contact Lens Solution</p>
+            </div>
+        </div>
+      </div>
+      <!-- just bottom the nav -->
+         
+        </div>
+      </div>
+
+
+<!-- =============================================================================================================================== -->
+
+
+      
+    </main>
+    <footer class="footer">
+      <div class="footer-links">
+        <div class="footer-left-link">
+          <div class="services-link">
+            <p>Services</p>
+            <ul>
+              <li>
+                <a href="#">Store Locator</a>
+              </li>
+              <li>
+                <a href="#">Buying Guide</a>
+              </li>
+              <li>
+                <a href="#">Frame Size</a>
+              </li>
+            </ul>
+          </div>
+          <div class="About-link">
+            <p>About Us</p>
+            <ul>
+              <li>
+                <a href="#">We Are Hiring</a>
+              </li>
+              <li>
+                <a href="#">Refer And Earn</a>
+              </li>
+              <li>
+                <a href="#">About us</a>
+              </li>
+              <li>
+                <a href="#">Lenskart Coupons</a>
+              </li>
+            </ul>
+          </div>
+          <div class="Help-link">
+            <p>Help</p>
+            <ul>
+              <li>
+                <a href="#">FAQ's</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-right-link">
+          <div class="applinks">
+            <div class="google-play-store app">
+              <img src="./Images/play-store.svg" alt="Google Play" />
+            </div>
+            <div class="apple-store app">
+              <img src="./Images/app-store.svg" alt="App Store" />
+            </div>
+          </div>
+          <div class="app-releated-text">
+            <p>Download Lenskart App to buy</p>
+            <p>Eyeglasses, Sunglasses and Contact Lenses</p>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="footer-bottom-part">
+        <div class="leftpart">
+          <a href="#">T&C</a>
+          <a href="#">Privacy</a>
+          <a href="#">Disclaimer</a>
+        </div>
+        <div class="rightpart">
+          <span>Version 1.0.0</span>
+          <span>||</span>
+          <span class="followus">Follow Us</span>
+          <a href="#"><img src="./Images/facebook.png"></a>
+          <a href="#"><img src="./Images/instagram.png"></a>
+          <a href="#"><img src="./Images/twitter.png"></a>
+        </div>
+      </div>
+    </footer>
+
+    <link href="https://www.dafontfree.net/embed/d29yay1zYW5zLWhhaXJsaW5lJmRhdGEvMTkvdy85MjY0OS9Xb3JrU2Fucy1IYWlybGluZS5vdGY" rel="stylesheet" type="text/css"/>
+  </body>
+</html>
